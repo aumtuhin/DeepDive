@@ -1,0 +1,122 @@
+body{
+  font-family: 'Khula', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color:#95a5a6;
+}
+.login-section{
+    position: fixed;
+    top: 30%;
+    left: 47%;
+    margin-top: -50px;
+    margin-left: -150px;
+}
+.login-section a{
+  text-decoration: none;
+  color: #000;
+}
+.logo{
+  text-align: center;
+}
+.logo-span{
+  color: #F44336;
+  margin-left: 10px;
+}
+h2{
+  margin: 0px;
+}
+.logo img{
+  text-align: center;
+}
+.login-input{
+   padding: 13px;
+   width: 300px;
+   outline: none;
+   border: none;
+   background: #eae7e2;
+   border-radius: 4px;
+   margin-top: 10px;
+
+}
+::-webkit-input-placeholder {
+  margin-left: 10px;
+}
+::-moz-placeholder {
+  margin-left: 10px;
+}
+:-ms-input-placeholder {
+  margin-left: 10px;
+}
+:-moz-placeholder {
+  margin-left: 10px;
+}
+.login-btn{
+    padding: 12px;
+    width: 325px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    /*background: rgba(251, 66, 62, 0.76);*/
+    background: #34495e;
+    color: #ecf0f1;
+    cursor: pointer;
+    transition: .4s;
+}
+.login-btn:hover{
+  background: #2c3e50;
+}
+.remember-me{
+  margin-top: 14px;
+}
+.remember-span{
+  color: #95a5a6;
+  font-size: 15px;
+}
+p{
+  text-align: center;
+  font-size: 14px;
+}
+p a{
+    color: #2c3e50;
+    text-decoration: none;
+}
+.remember{
+  color: #34495e;
+  cursor: pointer;
+}
+@media only screen and (max-width: 640px){
+  .logo img{
+    height: 60px;
+    text-align: center;
+  }
+  .login-input{
+     padding: 13px;
+     width: 250px;
+     outline: none;
+     border: none;
+     background: #eae7e2;
+     border-radius: 4px;
+     margin-top: 10px;
+
+  }
+  .login-btn{
+    padding: 12px;
+      width: 275px;
+      margin-top: 10px;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+      background: rgba(251, 66, 62, 0.76);
+      color: #ecf0f1;
+      cursor: pointer;
+      transition: .4s;
+  }
+  .login-section {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -138px;
+}
+}
